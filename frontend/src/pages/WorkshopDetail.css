@@ -1,0 +1,112 @@
+.detail-page {
+  padding: 30px 24px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.detail-card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 28px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.detail-card h2 {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+  border-left: 3px solid #1a73e8;
+  padding-left: 16px;
+}
+
+.info-item {
+  display: flex;
+  gap: 10px;
+}
+
+.info-label {
+  font-size: 13px;
+  color: #888;
+  width: 80px;
+}
+
+.info-value {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.detail-description {
+  margin-bottom: 24px;
+}
+
+.detail-description h3 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.detail-description p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.book-btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.book-btn:hover {
+  background-color: #1558b0;
+}
+
+.not-found {
+  text-align: center;
+  padding: 60px 24px;
+}
+
+.not-found h2 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.not-found a {
+  color: #1a73e8;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .detail-card {
+    padding: 20px;
+  }
+
+  .info-item {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
