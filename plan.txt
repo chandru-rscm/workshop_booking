@@ -1,0 +1,9 @@
+Project Setup            : done
+Navbar components
+Landing page - Home
+Workshop Listing page
+Workshop Detail page
+Login/Register page
+Footer component
+React router setup
+Readme
