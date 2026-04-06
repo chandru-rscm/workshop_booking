@@ -1,6 +1,6 @@
 Project Setup            : done
-Navbar components
-Landing page - Home
+Navbar components        : done
+Landing page - Home      : done
 Workshop Listing page
 Workshop Detail page
 Login/Register page
