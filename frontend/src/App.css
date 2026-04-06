@@ -10,12 +10,6 @@ body {
   color: #333;
 }
 
-.app {
-  min-height: 100vh;
-}
-
-h1 {
-  text-align: center;
-  padding: 40px;
-  color: #2b6cb0;
+.main-content {
+  padding: 24px;
 }
