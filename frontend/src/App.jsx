@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Workshops from './pages/Workshops'
 import WorkshopDetail from './pages/WorkshopDetail'
+import Login from './pages/Login'
+import Register from './pages/Register'
 import './App.css'
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/workshops" element={<Workshops />} />
           <Route path="/workshops/:id" element={<WorkshopDetail />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </div>
     </BrowserRouter>
