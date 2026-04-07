@@ -17,12 +17,13 @@ function Navbar() {
         ☰
       </button>
 
-      <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-        <li><Link to="/workshops" onClick={() => setMenuOpen(false)}>Workshops</Link></li>
-        <li><Link to="/login" onClick={() => setMenuOpen(false)}>Login</Link></li>
-        <li><Link to="/register" onClick={() => setMenuOpen(false)}>Register</Link></li>
-      </ul>
+<ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
+  <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+  <li><Link to="/workshops" onClick={() => setMenuOpen(false)}>Workshops</Link></li>
+  <li><Link to="/dashboard" onClick={() => setMenuOpen(false)}>Dashboard</Link></li>
+  <li><Link to="/login" onClick={() => setMenuOpen(false)}>Login</Link></li>
+  <li><Link to="/register" onClick={() => setMenuOpen(false)}>Register</Link></li>
+</ul>
     </nav>
   )
 }
