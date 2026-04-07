@@ -1,8 +1,8 @@
 Project Setup            : done
 Navbar components        : done
 Landing page - Home      : done
-Workshop Listing page
-Workshop Detail page
+Workshop Listing page    : done
+Workshop Detail page     : done
 Login/Register page
 Footer component
 React router setup
