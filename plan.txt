@@ -6,5 +6,5 @@ Workshop Detail page     : done
 Login/Register page      : done
 Footer component         : done
 Dasboard with stats      : done
-React router setup
-Readme
+React router setup       : done
+Readme                   : done
